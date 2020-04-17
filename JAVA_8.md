@@ -70,7 +70,7 @@ stream2.forEach(e -> System.out.print(e + " "));
 ```
 
 
-## Calendat 클래스 문제점 해결
+## Calendar 클래스 문제점 해결
 
 1. Calendar 인스턴스는 불변 객체(immutable object)가 아니라서 값이 수정될 수 있음.
 2. 윤초(leap second)와 같은 특별한 상황을 고려하지 않음.
